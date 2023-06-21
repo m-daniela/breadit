@@ -1,3 +1,4 @@
+import BoardList from "@/components/boards/BoardList";
 
 /**
  * Main page
@@ -6,8 +7,9 @@
  */
 export default function Home() {
     return (
-        <main>
-      main page
-        </main>
+        <div>
+          Browse the boards, share your bakes, discuss etc.
+            <BoardList />
+        </div>
     );
 }

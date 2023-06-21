@@ -1,4 +1,5 @@
-import React from 'react';
+import PostComponent from "@/components/posts/Post";
+import React from "react";
 
 /**
  * Post page
@@ -10,6 +11,7 @@ const Post = () => {
     return (
         <div>
             post page, contents and comments will be displayed
+            <PostComponent />
         </div>
     );
 };

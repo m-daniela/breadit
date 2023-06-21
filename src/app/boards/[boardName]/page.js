@@ -1,4 +1,5 @@
-import React from 'react';
+import BoardComponent from "@/components/boards/Board";
+import React from "react";
 
 /**
  * Board page
@@ -12,6 +13,7 @@ const Board = () => {
     return (
         <div>
             board page, posts will be displayed
+            <BoardComponent />
         </div>
     );
 };
