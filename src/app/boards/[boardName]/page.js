@@ -1,3 +1,4 @@
+import BoardComponent from "@/components/boards/Board";
 import React from "react";
 
 /**
@@ -12,6 +13,7 @@ const Board = () => {
     return (
         <div>
             board page, posts will be displayed
+            <BoardComponent />
         </div>
     );
 };

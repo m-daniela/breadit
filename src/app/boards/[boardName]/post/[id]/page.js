@@ -1,3 +1,4 @@
+import PostComponent from "@/components/posts/Post";
 import React from "react";
 
 /**
@@ -10,6 +11,7 @@ const Post = () => {
     return (
         <div>
             post page, contents and comments will be displayed
+            <PostComponent />
         </div>
     );
 };
